@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sign Up | Dan's Bakery</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer>
+        function validateForm(event) {
+            event.preventDefault();
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const messageBox = document.getElementById("message");
+
+            let valid = true;
+            messageBox.innerHTML = "";
+
+            if (name === "") {
+                valid = false;
+                messageBox.innerHTML += "<p>Please enter your name.</p>";
+            }
+
+            const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+            if (!emailPattern.test(email)) {
+                valid = false;
+                messageBox.innerHTML += "<p>Please enter a valid email address.</p>";
+            }
+
+            if (valid) {
+                messageBox.innerHTML = "<p class='success'>Thank you for signing up!</p>";
+                document.getElementById("signupForm").reset();
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt="Dan's Bakery Logo" class="logo"/></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h1>Sign Up for Our Newsletter</h1>
+            <p>Be the first to hear about our sweet deals and fresh bakes.</p>
+            <form id="signupForm" onsubmit="validateForm(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label>
+                    <input type="checkbox" name="newsletter" required />
+                    I want to receive the Dan’s Bakery newsletter.
+                </label>
+
+                <button type="submit">Subscribe</button>
+                <div id="message"></div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dan's Bakery | Follow us on 
+            <a href="#">Instagram</a> | 
+            <a href="#">Facebook</a>
+        </p>
+    </footer>
+</body>
+</html>
