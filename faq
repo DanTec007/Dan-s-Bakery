@@ -1,0 +1,15 @@
+<!-- faq.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>FAQ - Dan's Bakery</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+  <header>...same nav...</header>
+  <main>
+    <h1>Frequently Asked Questions</h1>
+    <section>
+      <h2>What are your opening hours?</h2><p>We’re open from 7am to 7pm, Monday to Saturday.</p>
+      <h2>Do you make custom cakes?</h2><p>Yes! Contact us to order a personalized cake.</p>
+    </section>
+  </main>
+  <footer>...</footer>
+</body></html>

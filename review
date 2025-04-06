@@ -1,0 +1,15 @@
+<!-- reviews.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Reviews - Dan's Bakery</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+  <header>...same nav...</header>
+  <main>
+    <h1>Customer Reviews</h1>
+    <section>
+      <blockquote>“Best bakery in town! The croissants are to die for.” – Emily R.</blockquote>
+      <blockquote>“Super friendly staff and delicious cakes.” – Jason K.</blockquote>
+    </section>
+  </main>
+  <footer>...</footer>
+</body></html>

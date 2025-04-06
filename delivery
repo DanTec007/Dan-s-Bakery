@@ -1,0 +1,15 @@
+<!-- delivery.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Delivery - Dan's Bakery</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+  <header>...same nav...</header>
+  <main>
+    <h1>Delivery Information</h1>
+    <section>
+      <p>We deliver within a 10-mile radius of our store. Free delivery on orders over $25!</p>
+      <p>Deliveries are made daily between 8am–6pm.</p>
+    </section>
+  </main>
+  <footer>...</footer>
+</body></html>
