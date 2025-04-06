@@ -7,9 +7,17 @@
   <main>
     <h1>Our Menu</h1>
     <section>
-      <h2>Pastries</h2><ul><li>Croissants</li><li>Danishes</li></ul>
-      <h2>Breads</h2><ul><li>Sourdough</li><li>Whole Wheat</li></ul>
-      <h2>Cakes</h2><ul><li>Chocolate Fudge</li><li>Red Velvet</li></ul>
+      <h2>Pastries</h2>
+<ul>
+  <li>
+    Croissants <br>
+    <img src="product.jpg" alt="Croissant" class="product-img">
+  </li>
+  <li>
+    Danishes <br>
+    <img src="product.jpg 2.jpg" alt="Danish" class="product-img">
+  </li>
+</ul>
     </section>
     <a href="order.html" class="cta-button">Order Now</a>
   </main>
