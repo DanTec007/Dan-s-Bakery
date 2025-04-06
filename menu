@@ -26,6 +26,30 @@
 <header>
   <nav>
     <ul>
+<main>
+  <h1>Our Menu</h1>
+  <section>
+    <h2>Pastries</h2>
+    <ul>
+      <li><strong>Croissant</strong> – Flaky, buttery goodness – $2.50</li>
+      <li><strong>Apple Danish</strong> – Sweet apple filling with icing – $3.00</li>
+    </ul>
+
+    <h2>Breads</h2>
+    <ul>
+      <li><strong>Sourdough</strong> – Tangy artisan bread – $4.00</li>
+      <li><strong>Whole Wheat</strong> – Healthy and hearty – $3.50</li>
+    </ul>
+
+    <h2>Cakes</h2>
+    <ul>
+      <li><strong>Chocolate Fudge</strong> – Rich and decadent – $20.00</li>
+      <li><strong>Red Velvet</strong> – Smooth and creamy – $22.00</li>
+    </ul>
+  </section>
+  <a href="order.html" class="cta-button">Order Now</a>
+</main>
+
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About Us</a></li>
       <li><a href="menu.html">Menu</a></li>
